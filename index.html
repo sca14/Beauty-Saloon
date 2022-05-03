@@ -1,0 +1,237 @@
+<html>
+<head>
+    <title> SALON DE BEAUTE </title>
+    <link rel ="stylesheet" href="style.css">
+	<link rel ="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-
+	                       free@5.15.4/css/fontawesome.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Lobster&display=swap" rel="stylesheet">
+	 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Domine&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+<div class ="banner">
+   <img src="qwe.jpg" class="logo">
+   <div class ="banner-text">
+        <h1> SALON DE BEAUTE </h1>
+		<p> Add Color to your life </p> </div>
+		<div class = "banner-btn">
+		     <a href="#"><span></span>Find Out</a>
+			 <a href="#"><span></span>Read More</a>
+</div>
+</div>
+
+
+<div id="sideNav">
+		<nav>
+		<ul>
+		    <li><a href="#banner">HOME</a></li>
+			<li><a href="#feature">FEATURES</a></li>
+			<li><a href="#service">SERVICES</a></li>
+			<li><a href="#testimonial">TESTIMONIAL</a></li>
+			<li><a href="#footer">CONTACT </a></li>
+		</ul>
+		</nav>
+</div>
+<div id="menubtn">
+     <img src="MB.png" id="menu" >
+</div>
+<script>
+  var menubtn = document.getElementById("menubtn")
+  var sideNav = document.getElementById("sideNav")
+  var menu = document.getElementById("menu")
+  
+  sideNav.style.right ="-250px";
+
+menubtn.onclick = function(){
+     if(sideNav.style.right == "-250px"){
+	    sideNav.style.right = "0";
+		}
+		else{
+		     sideNav.style.right = "-250px";
+	    }}
+				
+var scroll = new SmoothScroll('a[href*="#"]',{
+    speed: 2000,
+	speedAsDuration: true
+	});
+
+</script>
+<!--fEATURES-->
+
+<section id="feature">
+<div class="title-text">
+<p> FEATURES </p>
+<h1>About us</h1> 
+</div>
+<div class="feature-box">
+     <div class="features">
+	   <h1> Experienced Staff</h1>
+	   <div class="featurees-desc">
+	      <div class="feature-icon">
+	       <i class="fa fa-shield aria-hidden="true"></i>
+	   </div>
+	    <div class="feature-text">
+		<p>Perfect and experienced in hair styling, manicure, pedicure and many more....</p>
+
+		</div>
+	  </div>
+	   <h1> Pre Booking Online</h1>
+	   <div class="featurees-desc">
+	      <div class="feature-icon">
+	       <i class="fa fa-check-square-o"></i>
+	   </div>
+	    <div class="feature-text">
+		<p>Can easily book your slots without any hazzle</p>
+
+		</div>
+	  </div>
+	   <h1> Affordable Prices</h1>
+	   <div class="featurees-desc">
+	      <div class="feature-icon">
+	       <i class="fa fa-inr"></i>
+	   </div>
+	    <div class="feature-text">
+		<p>Quality at afforable price</p>
+
+		</div>
+	  </div>
+	 </div>
+	 <div class="features-img">
+	  <img src="1.jpg">
+	 </div>
+	</div> 
+	</section>
+	
+	<!--Service-->
+	
+<section id="service">
+	<div class="title-text">
+	<p> SERVICES </p>
+	<h1>ADD COLOR TO YOUR LIFE</h1> 
+	</div>
+	<div class="service-box">
+	   <div class="single-service">
+	          <img src="img2.jpg">
+			  <div class="overlay"></div>
+			  <div class="service-desc">
+			    <h3> Hair Styling </h3>
+				<hr>
+				<p>New Look ...New Life</p>
+			  </div>
+	   </div>
+	   <div class="single-service">
+	          <img src="img3.jpg">
+			  <div class="overlay"></div>
+			  <div class="service-desc">
+			    <h3> Hair care </h3>
+				<hr>
+				<p>New Look ...New Life</p>
+			  </div>
+	   </div>
+	   <div class="single-service">
+			  <img src="img4.jpg">
+			  <div class="overlay"></div>
+			  <div class="service-desc">
+			    <h3> Party Look </h3>
+				<hr>
+				<p>New Look ...New Life</p>
+			  </div>
+	   </div>
+	   <div class="single-service">
+	          <img src="img5.jpg">
+			  <div class="overlay"></div>
+			  <div class="service-desc">
+			    <h3> Makeover </h3>
+				<hr>
+				<p>New Look ...New Life</p>
+			  </div>
+	   </div>
+	</div>
+	
+	
+	
+	</section>
+	<!--Testimonial-->
+<section id="testimonial">
+	<div class="title-text">
+	<p>TESTIMONIAL</p>
+    <h1>Client Talks</h1>
+	</div>
+	<div class="testimonial-row">
+	    <div class="testimonial-col">
+		   <div class="user">
+		       <img src="imgg2.jpg">
+			    <div class="user-info">
+				  <h4> John  </h4>
+				  <small>@Johnkyman</small>
+				</div>  
+		    </div>
+		   <p>Thank you so much for the wonderful work you do! I love my cut and color. And best of all, I know I can always depend on walking out of your salon feeling and looking my best!</p>
+	    </div>
+		<div class="testimonial-col">
+		 <div class="user">
+		       <img src="imgg.jpg">
+			    <div class="user-info">
+				  <h4> Kate </h4>
+				  <small>@Katego</small>
+				</div>  
+		    </div>
+		   <p>After a disastrous experience at another salon, I was a little nervous to get my hair done at a salon. My fears were put at ease when Raffaele expertly brought back health and beauty to my hair. I love that he cares enough for his clients that he will recommend what’s best for you even if it may not bring him the biggest paycheck! It was an absolute pleasure to have my hair done by someone who is a master and also enjoys what he does!</p>
+	    </div>
+		<div class="testimonial-col">
+		 <div class="user">
+		       <img src="imgg3.jpg">
+			    <div class="user-info">
+				  <h4> Jile </h4>
+				  <small>@Jilerote</small>
+				</div>  
+		    </div>
+		   <p>I’ve been a loyal customer for years. Great haircuts, marvellous service and the staff are fantastic. I wouldn’t go anywhere else.</p>
+	    </div>
+		<div class="testimonial-col">
+		 <div class="user">
+		       <img src="imgg4.jpg">
+			    <div class="user-info">
+				  <h4> Lora  </h4>
+				  <small>@Lorajous</small>
+				</div>  
+		    </div>
+		  <p>Nicky is the absolute best! Not only is she an incredible hairdresser but she is also kind and patient soul. Nicky is thorough and takes real pride in her work, she manages to help me feel relaxed after every visit. She is a true treasure and an absolute asset to the salon.</p>
+		</div>  
+</section>
+
+<!--footer-->
+
+<section id="footer">
+     <img src="qwe.jpg" class="footer-img">
+     <div class="title-text">
+	 <p>CONTACT</p>
+	 <h1>Visit Shop Today</h1>
+	 </div>
+<div class="footer-row">
+<div class="footer-left">
+	<h1> Opening Hours</h1>
+	<p>Monday -Friday  - 9am to 9pm</p>
+	<p>Saturday and Sunday  - 8am to 11pm</p>
+	
+</div>
+<div class="footer-right">
+    <h1> Get In Touch </h1>
+	<p>14 Lorne Road , Leicester</p>
+	<p>Salondebeaute@website.com</p>
+	</p>+44 7877686688</p>
+</div>
+</div>	
+
+</section>
+
+ 
+
+
+
+</body>
+</html>
